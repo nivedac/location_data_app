@@ -26,6 +26,8 @@ class MapPage extends StatelessWidget {
             urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
             subdomains: ['a', 'b', 'c'],
             userAgentPackageName: 'com.yourcompany.location_data_app',
+            urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            userAgentPackageName: 'com.example.app',
           ),
           MarkerLayer(
             markers: [
